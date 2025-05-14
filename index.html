@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChapterSwipe – Smooth Page-Turning Effects with Pure CSS</title>
+    <meta name="description" content="ChapterSwipe brings stories to life with smooth, book-like page-turning animations using only CSS. A sleek, interactive UI experience for digital readers and creators.">
+    <meta name="keywords" content="ChapterSwipe, CSS page turn, book UI, turning pages, CSS animation, interactive UI, digital book, flip effect, UX, front-end project">
+    
+    <!-- FONT LNIK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- BOOK SECTION -->
+    <div class="cover">
+        <div class="book">
+        <label for="page-1"  class="book__page book__page--1">
+          <img src="./img/bookcover.png" alt="">
+        </label>
+        
+        <label for="page-2" class="book__page book__page--4">
+          <div class="page__content">
+            <h1 class="page__content-title">I</h1>
+            <div class="page__content-blockquote">
+              <p class="page__content-blockquote-text">TRANSLATOR’S PREFACE — . . . The object of a translator should ever be to hold the mirror upto his author. That being so, his chief duty is to represent so far as practicable the manner in which his author’s ideas have been expressed, retaining if possible at the sacrifice of idiom and taste all the peculiarities of his author’s imagery and of language as well. . . . </p>
+              <p class="page__content-blockquote-text">. . . In regard to translations from the Sanskrit, nothing is easier than to dish up Hindu ideas, so as to make them agreeable to English taste. But the endeavour of the present translator has been to give in the following pages as literal a rendering as possible of the great work of Vyasa.. . . . </p>
+              <p class="page__content-blockquote-text">. . . To the purely English reader there is much in the following pages that will strike as ridiculous. Those unacquainted with any language but their own are generally very exclusive in matters of taste. . . .</p>
+              <!-- <span class="page__content-blockquote-reference">THE MAHABHARATA*</span> -->
+            </div>
+            <div class="page__content-text">
+              <p>Having no knowledge of models other than what they meet with in their own tongue, the standard they have formed of purity and taste in composition must necessarily be a narrow one. The translator, however, would ill-discharge his duty, if for the sake of avoiding ridicule, he sacrificed fidelity to the original. </p>
+      
+              <p>He must represent his author as he is, not as he should be to please the narrow taste of those entirely unacquainted with him. </p>
+            </div>
+            <div class="page__number">3</div>
+          </div>
+        </label>
+          
+        <!-- Resets the page -->
+        <input type="radio" name="page" id="page-1"/>
+          
+        <!-- Goes to the second page -->
+        <input type="radio" name="page" id="page-2"/>
+        <label class="book__page book__page--2">
+          <div class="book__page-front">
+            <div class="page__content">
+              <h1 class="page__content-book-title">THE MAHABHARATA</h1>
+              <h2 class="page__content-author">Krishna-Dwaipayana Vyasa</h2>
+              
+              <p class="page__content-credits">
+                <span>VOLUME  1</span>
+              </p>
+              
+              <p class="page__content-credits">
+                <span>BOOKS 1 to 3</span>
+              </p>
+              
+              <div class="page__content-copyright">
+                <p>Translated into English Prose from the Original Sanskrit Text</p>
+                <p>by Kisari Mohan Ganguli</p>
+              </div>
+            </div>
+          </div>
+          <div class="book__page-back">
+            <div class="page__content">
+              <h1 class="page__content-title">Contents</h1>
+              <table class="page__content-table">
+                <tr>
+                  <td align="left">Part I</td><td align="left">BOOK ONE</td><td align="right">3</td>
+                </tr>
+                <tr>
+                  <td align="left">Part II</td><td align="left">SECTION I</td><td align="right">43</td>
+                </tr>
+                <tr>
+                  <td align="left">Part III</td><td align="left">SECTION II</td><td align="right">87</td>
+                </tr>
+                <tr>
+                  <td align="left">Part IV</td><td align="left">SECTION III</td><td align="right">147</td>
+                </tr>
+                <tr>
+                  <td align="left">Part V</td><td align="left">SECTION IV</td><td align="right">173</td>
+                </tr>
+              </table>
+              
+              <div class="page__number">2</div>
+            </div>
+          </div>
+        </label>
+      </div>
+      </div>
+      
+    
+</body>
+</html>
