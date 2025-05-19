@@ -29,21 +29,21 @@
 
 <br>
 <span>Desktop Desgin</span><br/>
-<a href="" target="_blank" >
+<a href="https://www.behance.net/gallery/226241645/ChapterSwipe-Smooth-Page-Turning" target="_blank" >
 <img src="./img/bookSwipe.gif" width="575px"/>
 </a>
 <br />
 <span>Desktop Desgin ui-ux Layout</span><br/>
-<a href="" target="_blank" >
+<a href="https://www.behance.net/gallery/226241645/ChapterSwipe-Smooth-Page-Turning" target="_blank" >
 <img src="./img/closeBookLayout.png" width="475px"/>
 </a>
 <br />
 <span>Desktop Desgin</span><br/>
-<a href="" target="_blank" >
+<a href="https://www.behance.net/gallery/226241645/ChapterSwipe-Smooth-Page-Turning" target="_blank" >
 <img src="./img/openBookLayout.png" width="475px"/>
 </a>
 <br />
 <span>Cover</span><br/>
-<a href="" target="_blank" >
-<img src="./img/cover.png" width="575px"/>
+<a href="https://www.behance.net/gallery/226241645/ChapterSwipe-Smooth-Page-Turning" target="_blank" >
+<img src="./img/Cover.png" width="575px"/>
 </a>
